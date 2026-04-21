@@ -61,13 +61,11 @@ Le projet a été réalisé pour **NAO Holding** (Burkina Faso / Bobo-Dioulasso)
 
 ## 📸 Captures d'écran
 
-> *(Ajouter les captures dans le dossier `screenshots/` et décommenter les lignes ci-dessous)*
 
-<!--
 | Tableau de bord | Nouvelle commande | Facture PDF |
 |-----------------|-------------------|-------------|
-| ![Dashboard](screenshots/01-dashboard.png) | ![Commande](screenshots/02-commande-create.png) | ![Facture](screenshots/06-facture-pdf.png) |
--->
+| ![Dashboard](screenshots/dashboard.png) | ![Commande](screenshots/commande_create.png) | ![Facture](screenshots/facture-pdf.png) |
+
 
 ---
 
@@ -145,32 +143,6 @@ Les relations clés :
 - Validation des requêtes via `FormRequest` et règles inline
 - Protection contre les stocks négatifs au niveau du modèle (`booted()`)
 - Politique d'autorisation via `ClientPolicy`
-
----
-
-## 🚀 Installation
-
-```bash
-# Cloner le dépôt
-git clone <url-du-repo> gestsam
-cd gestsam
-
-# Installer les dépendances PHP
-composer install
-
-# Configurer l'environnement
-cp .env.example .env
-php artisan key:generate
-
-# Créer la base de données et migrer
-touch database/database.sqlite
-php artisan migrate
-
-# Lancer le serveur
-php artisan serve
-```
-
-> ℹ️ La configuration par défaut utilise SQLite — aucune installation de serveur de base de données n'est nécessaire pour démarrer.
 
 ---
 

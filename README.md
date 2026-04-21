@@ -61,13 +61,11 @@ The project was built for **NAO Holding** (Burkina Faso / Bobo-Dioulasso) and is
 
 ## 📸 Screenshots
 
-> *(Add screenshots in the `screenshots/` folder and uncomment the lines below)*
 
-<!-- 
 | Dashboard | New Order | Invoice PDF |
 |-----------|-----------|-------------|
-| ![Dashboard](screenshots/01-dashboard.png) | ![Order](screenshots/02-commande-create.png) | ![Invoice](screenshots/06-facture-pdf.png) |
--->
+| ![Dashboard](screenshots/dashboard.png) | ![Order](screenshots/commande_create.png) | ![Invoice](screenshots/facture-pdf.png) |
+
 
 ---
 
@@ -146,31 +144,6 @@ Key relationships:
 - Negative stock guard enforced in the model's `booted()` hook
 - Authorization via `ClientPolicy`
 
----
-
-## 🚀 Local Setup
-
-```bash
-# Clone the repository
-git clone <repo-url> gestsam
-cd gestsam
-
-# Install PHP dependencies
-composer install
-
-# Set up environment
-cp .env.example .env
-php artisan key:generate
-
-# Create the database and run migrations
-touch database/database.sqlite
-php artisan migrate
-
-# Start the development server
-php artisan serve
-```
-
-> ℹ️ The default config uses SQLite — no database server installation needed to get started.
 
 ---
 
