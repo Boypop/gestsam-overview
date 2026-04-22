@@ -68,7 +68,17 @@ The project was built for **NAO Holding** (Burkina Faso / Bobo-Dioulasso) and is
 
 ### Order
 <p align="center">
-  <img src="screenshots/commande_create.png" width="880" alt="Order"/>
+  <img src="screenshots/commande.png" width="880" alt="Order"/>
+</p>
+
+### Create order 
+<p align="center">
+  <img src="screenshots/commande_create.png" width="880" alt="Dashboard"/>
+</p>
+
+### Order detail
+<p align="center">
+  <img src="screenshots/commande_detail.png" width="880" alt="Dashboard"/>
 </p>
 
 ### Invoice

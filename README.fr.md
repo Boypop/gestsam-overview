@@ -66,9 +66,20 @@ Le projet a été réalisé pour **NAO Holding** (Burkina Faso / Bobo-Dioulasso)
   <img src="screenshots/dashboard.png" width="880" alt="Dashboard"/>
 </p>
 
-### Commande
+### Commandes
 <p align="center">
-  <img src="screenshots/commande_create.png" width="880" alt="Commande"/>
+  <img src="screenshots/commande.png" width="880" alt="Commandes"/>
+</p>
+
+### Créer une commande 
+<p align="center">
+  <img src="screenshots/commande_create.png" width="880" alt="Créer une commande"/>
+</p>
+
+### Détail d'une commande
+<p align="center">
+  <img src="screenshots/commande_detail.png" width="880" alt="Détail d'une commande"/>
+</p>
 </p>
 
 ### Facture PDF
